@@ -1,0 +1,328 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ColorObject"
+provides-nominal:
+- "11CrazyColors11ColorObjectC"
+provides-member:
+- ["11CrazyColors11ColorObjectC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "-="
+- !private "<"
+- "AssignmentPrecedence"
+- "Bool"
+- "CGFloat"
+- "ColorObject"
+- "SKSpriteNode"
+depends-member:
+- ["s19BinaryFloatingPointP", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- ["12CoreGraphics7CGFloatV", "init"]
+- !private ["SC7CGPointV", "y"]
+- ["s7CVarArgP", "CGFloat"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "minY"]
+- !private ["s7CVarArgP", "position"]
+- ["11CrazyColors11ColorObjectC", "Bool"]
+- ["11CrazyColors11ColorObjectC", "CGFloat"]
+- ["11CrazyColors11ColorObjectC", "deinit"]
+- ["11CrazyColors11ColorObjectC", "init"]
+- !private ["11CrazyColors11ColorObjectC", "maxY"]
+- !private ["11CrazyColors11ColorObjectC", "minY"]
+- ["11CrazyColors11ColorObjectC", "move"]
+- !private ["11CrazyColors11ColorObjectC", "position"]
+- ["s10ComparableP", "init"]
+- ["s28CustomDebugStringConvertibleP", "CGFloat"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "minY"]
+- !private ["s28CustomDebugStringConvertibleP", "position"]
+- !private ["s28CustomDebugStringConvertibleP", "y"]
+- ["s29CustomPlaygroundQuickLookableP", "CGFloat"]
+- ["s29CustomPlaygroundQuickLookableP", ""]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "minY"]
+- !private ["s29CustomPlaygroundQuickLookableP", "position"]
+- !private ["s29CustomPlaygroundQuickLookableP", "y"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "y"]
+- ["s23CustomStringConvertibleP", "CGFloat"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "minY"]
+- !private ["s23CustomStringConvertibleP", "position"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "y"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "y"]
+- ["s9EquatableP", "CGFloat"]
+- ["s9EquatableP", ""]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "minY"]
+- !private ["s9EquatableP", "position"]
+- !private ["s9EquatableP", "y"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s25ExpressibleByFloatLiteralP", "init"]
+- ["s27ExpressibleByIntegerLiteralP", "init"]
+- ["s13FloatingPointP", "init"]
+- ["s8HashableP", "CGFloat"]
+- ["s8HashableP", ""]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- ["s8HashableP", "init"]
+- !private ["s8HashableP", "minY"]
+- !private ["s8HashableP", "position"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- ["So8NSCodingP", "CGFloat"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "minY"]
+- !private ["So8NSCodingP", "position"]
+- ["So9NSCopyingP", "CGFloat"]
+- ["So9NSCopyingP", ""]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "minY"]
+- !private ["So9NSCopyingP", "position"]
+- ["So8NSObjectC", "Bool"]
+- ["So8NSObjectC", "CGFloat"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "maxY"]
+- ["So8NSObjectC", "minY"]
+- ["So8NSObjectC", "move"]
+- !private ["So8NSObjectC", "position"]
+- ["So16NSObjectProtocolP", "CGFloat"]
+- ["So16NSObjectProtocolP", ""]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "minY"]
+- !private ["So16NSObjectProtocolP", "position"]
+- ["s7NumericP", "init"]
+- ["So6SKNodeC", "Bool"]
+- ["So6SKNodeC", "CGFloat"]
+- ["So6SKNodeC", "init"]
+- ["So6SKNodeC", "maxY"]
+- ["So6SKNodeC", "minY"]
+- ["So6SKNodeC", "move"]
+- !private ["So6SKNodeC", "position"]
+- ["So12SKSpriteNodeC", "Bool"]
+- ["So12SKSpriteNodeC", "CGFloat"]
+- ["So12SKSpriteNodeC", ""]
+- ["So12SKSpriteNodeC", "init"]
+- ["So12SKSpriteNodeC", "maxY"]
+- ["So12SKSpriteNodeC", "minY"]
+- ["So12SKSpriteNodeC", "move"]
+- !private ["So12SKSpriteNodeC", "position"]
+- ["So10SKWarpableP", "CGFloat"]
+- ["So10SKWarpableP", ""]
+- !private ["So10SKWarpableP", "init"]
+- !private ["So10SKWarpableP", "minY"]
+- !private ["So10SKWarpableP", "position"]
+- ["s13SignedNumericP", "init"]
+- ["s10StrideableP", "init"]
+- ["So18UIFocusEnvironmentP", "CGFloat"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "minY"]
+- !private ["So18UIFocusEnvironmentP", "position"]
+- ["So11UIFocusItemP", "CGFloat"]
+- ["So11UIFocusItemP", ""]
+- !private ["So11UIFocusItemP", "init"]
+- !private ["So11UIFocusItemP", "minY"]
+- !private ["So11UIFocusItemP", "position"]
+- ["So30UIPasteConfigurationSupportingP", "CGFloat"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "minY"]
+- !private ["So30UIPasteConfigurationSupportingP", "position"]
+- ["So11UIResponderC", "Bool"]
+- ["So11UIResponderC", "CGFloat"]
+- ["So11UIResponderC", "init"]
+- ["So11UIResponderC", "maxY"]
+- ["So11UIResponderC", "minY"]
+- ["So11UIResponderC", "move"]
+- !private ["So11UIResponderC", "position"]
+- ["So30UIResponderStandardEditActionsP", "CGFloat"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "minY"]
+- !private ["So30UIResponderStandardEditActionsP", "position"]
+- ["s15_CVarArgAlignedP", "init"]
+- ["s22_CVarArgPassedAsDoubleP", "init"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "CGFloat"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "minY"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "position"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "y"]
+depends-nominal:
+- "s19BinaryFloatingPointP"
+- !private "Sb"
+- "12CoreGraphics7CGFloatV"
+- !private "SC7CGPointV"
+- "s7CVarArgP"
+- "11CrazyColors11ColorObjectC"
+- "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "s9DecodableP"
+- "s9EncodableP"
+- "s9EquatableP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- "s25ExpressibleByFloatLiteralP"
+- "s27ExpressibleByIntegerLiteralP"
+- "s13FloatingPointP"
+- "s8HashableP"
+- !private "s25LosslessStringConvertibleP"
+- "So8NSCodingP"
+- "So9NSCopyingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- "s7NumericP"
+- "So6SKNodeC"
+- "So12SKSpriteNodeC"
+- "So10SKWarpableP"
+- "s13SignedNumericP"
+- "s10StrideableP"
+- "So18UIFocusEnvironmentP"
+- "So11UIFocusItemP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "s15_CVarArgAlignedP"
+- "s22_CVarArgPassedAsDoubleP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/ModelIO.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/simd.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/GLKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/SceneKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/SpriteKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/GameplayKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/SwiftOnoneSupport.swiftmodule"
+- "/Users/christofferwahlman/Desktop/CrazyColor/CrazyColors/CrazyColors/GoogleMobileAds.framework/Headers/DFPCustomRenderedAd.h"
+- "/Users/christofferwahlman/Desktop/CrazyColor/CrazyColors/CrazyColors/GoogleMobileAds.framework/Headers/GADNativeCustomTemplateAd.h"
+- "/Users/christofferwahlman/Desktop/CrazyColor/CrazyColors/CrazyColors/GoogleMobileAds.framework/Headers/GADNativeAd.h"
+- "/Users/christofferwahlman/Desktop/CrazyColor/CrazyColors/CrazyColors/GoogleMobileAds.framework/Headers/GADUnifiedNativeAd.h"
+- "/Users/christofferwahlman/Desktop/CrazyColor/CrazyColors/CrazyColors/GoogleMobileAds.framework/Headers/Mediation/GADMediatedUnifiedNativeAd.h"
+- "/Users/christofferwahlman/Desktop/CrazyColor/CrazyColors/CrazyColors/GoogleMobileAds.framework/Headers/Mediation/GADMediatedNativeAd.h"
+- "/Users/christofferwahlman/Desktop/CrazyColor/CrazyColors/CrazyColors/GoogleMobileAds.framework/Headers/GADCustomEventNativeAd.h"
+- "/Users/christofferwahlman/Desktop/CrazyColor/CrazyColors/CrazyColors/GoogleMobileAds.framework/Headers/GADNativeAppInstallAd.h"
+- "/Users/christofferwahlman/Desktop/CrazyColor/CrazyColors/CrazyColors/GoogleMobileAds.framework/Headers/Mediation/GADMediatedNativeAppInstallAd.h"
+- "/Users/christofferwahlman/Desktop/CrazyColor/CrazyColors/CrazyColors/GoogleMobileAds.framework/Headers/GADRewardBasedVideoAd.h"
+- "/Users/christofferwahlman/Desktop/CrazyColor/CrazyColors/CrazyColors/GoogleMobileAds.framework/Headers/GADNativeContentAd.h"
+- "/Users/christofferwahlman/Desktop/CrazyColor/CrazyColors/CrazyColors/GoogleMobileAds.framework/Headers/Mediation/GADMediatedNativeContentAd.h"
+- "/Users/christofferwahlman/Desktop/CrazyColor/CrazyColors/CrazyColors/GoogleMobileAds.framework/Headers/GADAdReward.h"
+- "/Users/christofferwahlman/Desktop/CrazyColor/CrazyColors/CrazyColors/GoogleMobileAds.framework/Headers/Mediation/GADMediatedUnifiedNativeAdNotificationSource.h"
+- "/Users/christofferwahlman/Desktop/CrazyColor/CrazyColors/CrazyColors/GoogleMobileAds.framework/Headers/Mediation/GADMediatedNativeAdNotificationSource.h"
+- "/Users/christofferwahlman/Desktop/CrazyColor/CrazyColors/CrazyColors/GoogleMobileAds.framework/Headers/GADNativeAdImage.h"
+- "/Users/christofferwahlman/Desktop/CrazyColor/CrazyColors/CrazyColors/GoogleMobileAds.framework/Headers/GADInAppPurchase.h"
+- "/Users/christofferwahlman/Desktop/CrazyColor/CrazyColors/CrazyColors/GoogleMobileAds.framework/Headers/GADNativeAdDelegate.h"
+- "/Users/christofferwahlman/Desktop/CrazyColor/CrazyColors/CrazyColors/GoogleMobileAds.framework/Headers/GADUnifiedNativeAdDelegate.h"
+- "/Users/christofferwahlman/Desktop/CrazyColor/CrazyColors/CrazyColors/GoogleMobileAds.framework/Headers/Mediation/GADMediatedNativeAdDelegate.h"
+- "/Users/christofferwahlman/Desktop/CrazyColor/CrazyColors/CrazyColors/GoogleMobileAds.framework/Headers/GADCustomEventNativeAdDelegate.h"
+- "/Users/christofferwahlman/Desktop/CrazyColor/CrazyColors/CrazyColors/GoogleMobileAds.framework/Headers/GADRewardBasedVideoAdDelegate.h"
+- "/Users/christofferwahlman/Desktop/CrazyColor/CrazyColors/CrazyColors/GoogleMobileAds.framework/Headers/GADInAppPurchaseDelegate.h"
+- "/Users/christofferwahlman/Desktop/CrazyColor/CrazyColors/CrazyColors/GoogleMobileAds.framework/Headers/GADAdSizeDelegate.h"
+- "/Users/christofferwahlman/Desktop/CrazyColor/CrazyColors/CrazyColors/GoogleMobileAds.framework/Headers/GADUnifiedNativeAdUnconfirmedClickDelegate.h"
+- "/Users/christofferwahlman/Desktop/CrazyColor/CrazyColors/CrazyColors/GoogleMobileAds.framework/Headers/GADInterstitialDelegate.h"
+- "/Users/christofferwahlman/Desktop/CrazyColor/CrazyColors/CrazyColors/GoogleMobileAds.framework/Headers/DFPCustomRenderedInterstitialDelegate.h"
+- "/Users/christofferwahlman/Desktop/CrazyColor/CrazyColors/CrazyColors/GoogleMobileAds.framework/Headers/GADCustomEventInterstitialDelegate.h"
+- "/Users/christofferwahlman/Desktop/CrazyColor/CrazyColors/CrazyColors/GoogleMobileAds.framework/Headers/GADAdLoaderDelegate.h"
+- "/Users/christofferwahlman/Desktop/CrazyColor/CrazyColors/CrazyColors/GoogleMobileAds.framework/Headers/GADAudioVideoManagerDelegate.h"
+- "/Users/christofferwahlman/Desktop/CrazyColor/CrazyColors/CrazyColors/GoogleMobileAds.framework/Headers/GADVideoControllerDelegate.h"
+- "/Users/christofferwahlman/Desktop/CrazyColor/CrazyColors/CrazyColors/GoogleMobileAds.framework/Headers/GADCustomEventBannerDelegate.h"
+- "/Users/christofferwahlman/Desktop/CrazyColor/CrazyColors/CrazyColors/GoogleMobileAds.framework/Headers/GADAppEventDelegate.h"
+- "/Users/christofferwahlman/Desktop/CrazyColor/CrazyColors/CrazyColors/GoogleMobileAds.framework/Headers/GADNativeExpressAdViewDelegate.h"
+- "/Users/christofferwahlman/Desktop/CrazyColor/CrazyColors/CrazyColors/GoogleMobileAds.framework/Headers/GADBannerViewDelegate.h"
+- "/Users/christofferwahlman/Desktop/CrazyColor/CrazyColors/CrazyColors/GoogleMobileAds.framework/Headers/DFPCustomRenderedBannerViewDelegate.h"
+- "/Users/christofferwahlman/Desktop/CrazyColor/CrazyColors/CrazyColors/GoogleMobileAds.framework/Headers/GADAdSize.h"
+- "/Users/christofferwahlman/Desktop/CrazyColor/CrazyColors/CrazyColors/GoogleMobileAds.framework/Headers/GADUnifiedNativeAd+ConfirmationClick.h"
+- "/Users/christofferwahlman/Desktop/CrazyColor/CrazyColors/CrazyColors/GoogleMobileAds.framework/Headers/GADInterstitial.h"
+- "/Users/christofferwahlman/Desktop/CrazyColor/CrazyColors/CrazyColors/GoogleMobileAds.framework/Headers/DFPInterstitial.h"
+- "/Users/christofferwahlman/Desktop/CrazyColor/CrazyColors/CrazyColors/GoogleMobileAds.framework/Headers/GADCustomEventInterstitial.h"
+- "/Users/christofferwahlman/Desktop/CrazyColor/CrazyColors/CrazyColors/GoogleMobileAds.framework/Headers/Mediation/GADMAdNetworkAdapterProtocol.h"
+- "/Users/christofferwahlman/Desktop/CrazyColor/CrazyColors/CrazyColors/GoogleMobileAds.framework/Headers/Mediation/GADMRewardBasedVideoAdNetworkAdapterProtocol.h"
+- "/Users/christofferwahlman/Desktop/CrazyColor/CrazyColors/CrazyColors/GoogleMobileAds.framework/Headers/Mediation/GADMAdNetworkConnectorProtocol.h"
+- "/Users/christofferwahlman/Desktop/CrazyColor/CrazyColors/CrazyColors/GoogleMobileAds.framework/Headers/Mediation/GADMRewardBasedVideoAdNetworkConnectorProtocol.h"
+- "/Users/christofferwahlman/Desktop/CrazyColor/CrazyColors/CrazyColors/GoogleMobileAds.framework/Headers/GADNativeAdImage+Mediation.h"
+- "/Users/christofferwahlman/Desktop/CrazyColor/CrazyColors/CrazyColors/GoogleMobileAds.framework/Headers/GADAdLoader.h"
+- "/Users/christofferwahlman/Desktop/CrazyColor/CrazyColors/CrazyColors/GoogleMobileAds.framework/Headers/GADAudioVideoManager.h"
+- "/Users/christofferwahlman/Desktop/CrazyColor/CrazyColors/CrazyColors/GoogleMobileAds.framework/Headers/GADVideoController.h"
+- "/Users/christofferwahlman/Desktop/CrazyColor/CrazyColors/CrazyColors/GoogleMobileAds.framework/Headers/GADDebugOptionsViewController.h"
+- "/Users/christofferwahlman/Desktop/CrazyColor/CrazyColors/CrazyColors/GoogleMobileAds.framework/Headers/GADCustomEventBanner.h"
+- "/Users/christofferwahlman/Desktop/CrazyColor/CrazyColors/CrazyColors/GoogleMobileAds.framework/Headers/GADRequestError.h"
+- "/Users/christofferwahlman/Desktop/CrazyColor/CrazyColors/CrazyColors/GoogleMobileAds.framework/Headers/GADCorrelator.h"
+- "/Users/christofferwahlman/Desktop/CrazyColor/CrazyColors/CrazyColors/GoogleMobileAds.framework/Headers/GADNativeAppInstallAdAssetIDs.h"
+- "/Users/christofferwahlman/Desktop/CrazyColor/CrazyColors/CrazyColors/GoogleMobileAds.framework/Headers/GADNativeContentAdAssetIDs.h"
+- "/Users/christofferwahlman/Desktop/CrazyColor/CrazyColors/CrazyColors/GoogleMobileAds.framework/Headers/GADExtras.h"
+- "/Users/christofferwahlman/Desktop/CrazyColor/CrazyColors/CrazyColors/GoogleMobileAds.framework/Headers/GADAdNetworkExtras.h"
+- "/Users/christofferwahlman/Desktop/CrazyColor/CrazyColors/CrazyColors/GoogleMobileAds.framework/Headers/GADCustomEventExtras.h"
+- "/Users/christofferwahlman/Desktop/CrazyColor/CrazyColors/CrazyColors/GoogleMobileAds.framework/Headers/GADMobileAds.h"
+- "/Users/christofferwahlman/Desktop/CrazyColor/CrazyColors/CrazyColors/GoogleMobileAds.framework/Headers/GoogleMobileAds.h"
+- "/Users/christofferwahlman/Desktop/CrazyColor/CrazyColors/CrazyColors/GoogleMobileAds.framework/Headers/GoogleMobileAdsDefines.h"
+- "/Users/christofferwahlman/Desktop/CrazyColor/CrazyColors/CrazyColors/GoogleMobileAds.framework/Headers/GADAdLoaderAdTypes.h"
+- "/Users/christofferwahlman/Desktop/CrazyColor/CrazyColors/CrazyColors/GoogleMobileAds.framework/Headers/Mediation/GADMEnums.h"
+- "/Users/christofferwahlman/Desktop/CrazyColor/CrazyColors/CrazyColors/GoogleMobileAds.framework/Headers/GADNativeAdViewAdOptions.h"
+- "/Users/christofferwahlman/Desktop/CrazyColor/CrazyColors/CrazyColors/GoogleMobileAds.framework/Headers/GADVideoOptions.h"
+- "/Users/christofferwahlman/Desktop/CrazyColor/CrazyColors/CrazyColors/GoogleMobileAds.framework/Headers/GADNativeAdImageAdLoaderOptions.h"
+- "/Users/christofferwahlman/Desktop/CrazyColor/CrazyColors/CrazyColors/GoogleMobileAds.framework/Headers/GADCorrelatorAdLoaderOptions.h"
+- "/Users/christofferwahlman/Desktop/CrazyColor/CrazyColors/CrazyColors/GoogleMobileAds.framework/Headers/GADMultipleAdsAdLoaderOptions.h"
+- "/Users/christofferwahlman/Desktop/CrazyColor/CrazyColors/CrazyColors/GoogleMobileAds.framework/Headers/DFPBannerViewOptions.h"
+- "/Users/christofferwahlman/Desktop/CrazyColor/CrazyColors/CrazyColors/GoogleMobileAds.framework/Headers/GADUnifiedNativeAdAssetIdentifiers.h"
+- "/Users/christofferwahlman/Desktop/CrazyColor/CrazyColors/CrazyColors/GoogleMobileAds.framework/Headers/GADCustomEventParameters.h"
+- "/Users/christofferwahlman/Desktop/CrazyColor/CrazyColors/CrazyColors/GoogleMobileAds.framework/Headers/GADRequest.h"
+- "/Users/christofferwahlman/Desktop/CrazyColor/CrazyColors/CrazyColors/GoogleMobileAds.framework/Headers/DFPRequest.h"
+- "/Users/christofferwahlman/Desktop/CrazyColor/CrazyColors/CrazyColors/GoogleMobileAds.framework/Headers/Mediation/GADMediationAdRequest.h"
+- "/Users/christofferwahlman/Desktop/CrazyColor/CrazyColors/CrazyColors/GoogleMobileAds.framework/Headers/GADSearchRequest.h"
+- "/Users/christofferwahlman/Desktop/CrazyColor/CrazyColors/CrazyColors/GoogleMobileAds.framework/Headers/GADDynamicHeightSearchRequest.h"
+- "/Users/christofferwahlman/Desktop/CrazyColor/CrazyColors/CrazyColors/GoogleMobileAds.framework/Headers/GADCustomEventRequest.h"
+- "/Users/christofferwahlman/Desktop/CrazyColor/CrazyColors/CrazyColors/GoogleMobileAds.framework/Headers/GADMediaView.h"
+- "/Users/christofferwahlman/Desktop/CrazyColor/CrazyColors/CrazyColors/GoogleMobileAds.framework/Headers/GADNativeExpressAdView.h"
+- "/Users/christofferwahlman/Desktop/CrazyColor/CrazyColors/CrazyColors/GoogleMobileAds.framework/Headers/GADBannerView.h"
+- "/Users/christofferwahlman/Desktop/CrazyColor/CrazyColors/CrazyColors/GoogleMobileAds.framework/Headers/DFPBannerView.h"
+- "/Users/christofferwahlman/Desktop/CrazyColor/CrazyColors/CrazyColors/GoogleMobileAds.framework/Headers/GADSearchBannerView.h"
+- "/Users/christofferwahlman/Desktop/CrazyColor/CrazyColors/CrazyColors/GoogleMobileAds.framework/Headers/GADAdChoicesView.h"
+- "/Users/christofferwahlman/Desktop/CrazyColor/CrazyColors/CrazyColors/GoogleMobileAds.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/ModelIO.framework/Headers/ModelIO.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/GLKit.framework/Headers/GLKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/SceneKit.framework/Headers/SceneKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/StoreKit.framework/Headers/StoreKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/SpriteKit.framework/Headers/SpriteKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/GameplayKit.framework/Headers/GameplayKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "d035e9712ea1db86f771410aa9a46e86"

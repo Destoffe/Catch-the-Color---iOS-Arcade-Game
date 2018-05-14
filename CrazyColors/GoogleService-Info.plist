@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>482066890822-ah1snp04vdhuug1l4rr6oa86hk0br34u.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.482066890822-ah1snp04vdhuug1l4rr6oa86hk0br34u</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAxsnESlX5z_mPFR-1WYbk2h2w_O1L6ZI4</string>
+	<key>GCM_SENDER_ID</key>
+	<string>482066890822</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>stoffe.jagharaldrig</string>
+	<key>PROJECT_ID</key>
+	<string>jag-har-aldrig-20634</string>
+	<key>STORAGE_BUCKET</key>
+	<string>jag-har-aldrig-20634.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:482066890822:ios:be7dce8634760071</string>
+	<key>DATABASE_URL</key>
+	<string>https://jag-har-aldrig-20634.firebaseio.com</string>
+</dict>
+</plist>
