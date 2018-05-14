@@ -1,11 +1,11 @@
 version: "Apple Swift version 4.1 (swiftlang-902.0.48 clang-902.0.37.1)"
 options: "e29b5b0548ed933df2f85a32c06344a7"
-build_time: [1523793408, 392817000]
+build_time: [1526327507, 21169000]
 inputs:
   "/Users/christofferwahlman/Desktop/CrazyColor/CrazyColors/CrazyColors/Classes/Item Controller Classes/ItemController.swift": [1523699772, 0]
-  "/Users/christofferwahlman/Desktop/CrazyColor/CrazyColors/CrazyColors/Classes/Scene Classes/MainMenuScene.swift": [1523478935, 0]
-  "/Users/christofferwahlman/Desktop/CrazyColor/CrazyColors/CrazyColors/GameViewController.swift": [1523705406, 0]
+  "/Users/christofferwahlman/Desktop/CrazyColor/CrazyColors/CrazyColors/Classes/Scene Classes/MainMenuScene.swift": [1526326979, 0]
+  "/Users/christofferwahlman/Desktop/CrazyColor/CrazyColors/CrazyColors/Classes/Scene Classes/GameViewController.swift": [1523705406, 0]
   "/Users/christofferwahlman/Desktop/CrazyColor/CrazyColors/CrazyColors/AppDelegate.swift": [1520784186, 0]
   "/Users/christofferwahlman/Desktop/CrazyColor/CrazyColors/CrazyColors/Classes/Player Class/Player.swift": [1523467586, 0]
-  "/Users/christofferwahlman/Desktop/CrazyColor/CrazyColors/CrazyColors/Classes/Scene Classes/HowToPlaySceneClass.swift": [1523701720, 0]
-  "/Users/christofferwahlman/Desktop/CrazyColor/CrazyColors/CrazyColors/Classes/Scene Classes/GamePlaySceneClass.swift": [1523708785, 0]
+  "/Users/christofferwahlman/Desktop/CrazyColor/CrazyColors/CrazyColors/Classes/Scene Classes/HowToPlaySceneClass.swift": [1526327229, 0]
+  "/Users/christofferwahlman/Desktop/CrazyColor/CrazyColors/CrazyColors/Classes/Scene Classes/GamePlaySceneClass.swift": [1526327166, 0]

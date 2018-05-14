@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		C9146757207B7A120058C100 /* HowToPlayScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = C9146756207B7A120058C100 /* HowToPlayScene.sks */; };
-		C91CF946207E8370003E8F75 /* pkkp.sks in Resources */ = {isa = PBXBuildFile; fileRef = C91CF945207E8370003E8F75 /* pkkp.sks */; };
 		C91CF948207E97A2003E8F75 /* HowToPlaySceneClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91CF947207E97A2003E8F75 /* HowToPlaySceneClass.swift */; };
 		C91CF94A207EA45F003E8F75 /* left.png in Resources */ = {isa = PBXBuildFile; fileRef = C91CF949207EA45F003E8F75 /* left.png */; };
 		C927C708207D3C7100C2FB9F /* confetti.png in Resources */ = {isa = PBXBuildFile; fileRef = C927C704207D3C7000C2FB9F /* confetti.png */; };
@@ -62,7 +61,6 @@
 
 /* Begin PBXFileReference section */
 		C9146756207B7A120058C100 /* HowToPlayScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = HowToPlayScene.sks; sourceTree = "<group>"; };
-		C91CF945207E8370003E8F75 /* pkkp.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = pkkp.sks; sourceTree = "<group>"; };
 		C91CF947207E97A2003E8F75 /* HowToPlaySceneClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowToPlaySceneClass.swift; sourceTree = "<group>"; };
 		C91CF949207EA45F003E8F75 /* left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = left.png; sourceTree = "<group>"; };
 		C927C704207D3C7000C2FB9F /* confetti.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = confetti.png; sourceTree = "<group>"; };
@@ -128,13 +126,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		C927C70B207D3C7B00C2FB9F /* 3rd party classes */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "3rd party classes";
-			sourceTree = "<group>";
-		};
 		C927C718207D49E400C2FB9F /* Circle.imageset */ = {
 			isa = PBXGroup;
 			children = (
@@ -182,6 +173,7 @@
 		C9983E2D20765D8900A0FC96 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
+				C95EFA78207FFCD700503872 /* testetst.png */,
 				C9983E2A20764FF900A0FC96 /* backgroundmusic.mp3 */,
 				C9983E362077B25300A0FC96 /* red_button02.png */,
 				C9DAC53F207D1B6C00D7067A /* green_button05.png */,
@@ -205,7 +197,6 @@
 		C9D093E420558ABA004CCF8C = {
 			isa = PBXGroup;
 			children = (
-				C91CF945207E8370003E8F75 /* pkkp.sks */,
 				C9D093EF20558ABA004CCF8C /* CrazyColors */,
 				C9D093EE20558ABA004CCF8C /* Products */,
 			);
@@ -222,18 +213,13 @@
 		C9D093EF20558ABA004CCF8C /* CrazyColors */ = {
 			isa = PBXGroup;
 			children = (
-				C927C70B207D3C7B00C2FB9F /* 3rd party classes */,
+				C9FC109420AA202900713564 /* Storyboards */,
 				C9983E2D20765D8900A0FC96 /* Assets */,
 				C9D0940B20558B19004CCF8C /* Classes */,
 				C9D0940820558AEF004CCF8C /* Scenes */,
 				C9D093F020558ABA004CCF8C /* AppDelegate.swift */,
 				C9983E4C2077CAA900A0FC96 /* GoogleMobileAds.framework */,
 				C9983E442077C02700A0FC96 /* GoogleService-Info.plist */,
-				C9D093F420558ABA004CCF8C /* Actions.sks */,
-				C95EFA78207FFCD700503872 /* testetst.png */,
-				C95B5263206ADF55000AE3F0 /* Main.storyboard */,
-				C9DAC541207D2D4200D7067A /* LaunchScreen.storyboard */,
-				C9D093F820558ABA004CCF8C /* GameViewController.swift */,
 				C9D093FD20558ABA004CCF8C /* Assets.xcassets */,
 				C927C71D207D49E400C2FB9F /* Box.imageset */,
 				C927C718207D49E400C2FB9F /* Circle.imageset */,
@@ -250,6 +236,7 @@
 			children = (
 				C9D0940920558B09004CCF8C /* MainMenu.sks */,
 				C9D0940F20558B5F004CCF8C /* GamePlayScene.sks */,
+				C9D093F420558ABA004CCF8C /* Actions.sks */,
 				C9146756207B7A120058C100 /* HowToPlayScene.sks */,
 			);
 			path = Scenes;
@@ -268,6 +255,7 @@
 		C9D0940C20558B1D004CCF8C /* Scene Classes */ = {
 			isa = PBXGroup;
 			children = (
+				C9D093F820558ABA004CCF8C /* GameViewController.swift */,
 				C9D0940D20558B31004CCF8C /* MainMenuScene.swift */,
 				C9D0941120558B71004CCF8C /* GamePlaySceneClass.swift */,
 				C91CF947207E97A2003E8F75 /* HowToPlaySceneClass.swift */,
@@ -289,6 +277,15 @@
 				C9D0941920559601004CCF8C /* ItemController.swift */,
 			);
 			path = "Item Controller Classes";
+			sourceTree = "<group>";
+		};
+		C9FC109420AA202900713564 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				C95B5263206ADF55000AE3F0 /* Main.storyboard */,
+				C9DAC541207D2D4200D7067A /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -381,7 +378,6 @@
 				C9983E432077BB1D00A0FC96 /* blue_button05.png in Resources */,
 				C927C73A207D49E500C2FB9F /* Contents.json in Resources */,
 				C927C733207D49E500C2FB9F /* Box@2x.png in Resources */,
-				C91CF946207E8370003E8F75 /* pkkp.sks in Resources */,
 				C9983E462077C02800A0FC96 /* GoogleService-Info.plist in Resources */,
 				C927C73D207D49E500C2FB9F /* Contents.json in Resources */,
 				C9983E2B20764FF900A0FC96 /* backgroundmusic.mp3 in Resources */,
